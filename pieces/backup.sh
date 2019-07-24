@@ -1,0 +1,1 @@
+rclone --exclude "#recycle/**" --exclude "@eaDir/**" --exclude "@eaDir/" --log-file=/volume1/Shared/backup.log --track-renames sync --config="/volume1/Shared/rclone.conf" -P --fast-list --create-empty-src-dirs /volume1/Shared Backblaze:test-syno
